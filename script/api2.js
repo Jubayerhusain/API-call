@@ -6,5 +6,6 @@ const allPost = fetch('https://jsonplaceholder.typicode.com/posts')
 function postSection(post) {
     for(const data of post){
         console.log(data)
+        // console.log(data.title)
     }
 }
