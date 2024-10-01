@@ -1,5 +1,5 @@
 
-const allPost = () =>{
+const loadPost3 = () =>{
     fetch('https://jsonplaceholder.typicode.com/posts')
     .then(response => response.json())
     .then(data => postSection(data));
